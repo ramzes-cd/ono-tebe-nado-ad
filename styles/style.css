@@ -18,7 +18,7 @@ body {
   align-items: flex-start;
   font-style: normal;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24.3px;
 }
 
 .address a {
@@ -45,7 +45,7 @@ body {
   gap: 32px;
   list-style: circle;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24.3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -63,7 +63,7 @@ body {
 
 .header__logo {
   display: block;
-  width: 148px;
+  width: 130px;
 }
 
 .header__logo-image {
@@ -171,7 +171,7 @@ body {
 }
 
 .lots__card-list-item {
-  width: 430px;
+  width: calc((100% - 50px) / 3);
   min-height: 450px;
 }
 
@@ -231,15 +231,15 @@ body {
 
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 316px 1fr;
   gap: 25px;
   padding: 180px 50px 0;
+  align-items: start;
 }
 
 .about__column_left {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .about__logo {
@@ -253,11 +253,13 @@ body {
 }
 
 .about__logo-image {
-  width: 148px;
+  width: 130px;
 }
 
 .about__title {
-  margin: 100px 0 100px;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
@@ -290,7 +292,7 @@ body {
   list-style: none;
   text-align: center;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24.3px;
 }
 
 .footer__menu-link {
